@@ -4,9 +4,9 @@ namespace arogachev\rbac\components;
 
 use Yii;
 use yii\base\InvalidConfigException;
-use yii\base\Object;
+use yii\base\BaseObject;
 
-class RbacConfigParser extends Object
+class RbacConfigParser extends BaseObject
 {
     /**
      * @var string
